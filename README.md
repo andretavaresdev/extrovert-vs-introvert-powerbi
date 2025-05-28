@@ -10,8 +10,7 @@ O principal objetivo deste projeto é entender os padrões de comportamento de e
 
 ### Perguntas que estou explorando:
 - Como o tempo gasto sozinho se compara entre extrovertidos e introvertidos?
-- Qual é a relação entre o número de amigos e a participação em eventos sociais?
-- Como os extrovertidos e introvertidos se comportam nas redes sociais?
+- Qual é a relação entre a personalidade e a participação em eventos sociais?
 
 ## Variáveis do Dataset
 
