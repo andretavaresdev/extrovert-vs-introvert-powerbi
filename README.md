@@ -55,7 +55,7 @@ Este projeto foi desenvolvido com foco em **análise descritiva, comunicação v
 ### 📁 Acesse o projeto completo:
 
 - [Download do arquivo Power BI (.pbix)](./introvertidos-vs-extrovertidos.pbix)
-![Imagem do Dashboard](./imagens/dashboard-visao-geral.png)
+- [Imagem do Dashboard](./dashboard-visao-geral.png)
 
 ---
 
