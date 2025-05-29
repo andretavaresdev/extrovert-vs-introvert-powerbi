@@ -1,37 +1,79 @@
-# Análise de Comportamento: Extrovertido vs Introvertido
+# 🔍 Análise Comportamental: Extrovertidos vs Introvertidos com Power BI
 
-## Descrição
+Este projeto explora padrões sociais e comportamentais entre perfis de personalidade (extrovertidos e introvertidos) utilizando dados reais. A análise foi feita no Power BI com foco em boas práticas visuais, interatividade e geração de insights claros — habilidades essenciais para quem atua com dados.
 
-Este é o meu primeiro projeto prático utilizando **Power BI** para análise de dados. O objetivo é explorar como diferentes comportamentos variam entre pessoas extrovertidas e introvertidas. As variáveis analisadas incluem **frequência de eventos sociais**, **tempo gasto sozinho**, **número de amigos próximos**, e outros aspectos relacionados ao comportamento social.
+---
 
-## Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
-O principal objetivo deste projeto é entender os padrões de comportamento de extrovertidos e introvertidos com base em dados. Estou usando **Power BI** para visualizar e explorar as informações, criando dashboards interativos que permitem comparar as variáveis de forma visual.
+Responder às seguintes perguntas com base em dados reais:
 
-### Perguntas que estou explorando:
-- Como o tempo gasto sozinho se compara entre extrovertidos e introvertidos?
-- Qual é a relação entre a personalidade e a participação em eventos sociais?
+- Pessoas extrovertidas frequentam mais eventos sociais?  
+- Introvertidos passam mais tempo sozinhos?  
+- Qual grupo possui um círculo de amizades maior?  
+- Existe correlação entre número de amigos e tempo sozinho?  
+- O medo de palco influencia esse comportamento?
 
-## Variáveis do Dataset
+Este projeto foi desenvolvido com foco em **análise descritiva, comunicação visual de dados e interpretação prática**.
 
-O dataset contém as seguintes colunas relevantes para o projeto:
+---
 
-- **Time_spent_Alone**: Número de horas gastas sozinhas diariamente (0–11).
-- **Stage_fear**: Medo de palco (Sim/Não).
-- **Social_event_attendance**: Frequência de participação em eventos sociais (0–10).
-- **Going_outside**: Frequência de sair de casa (0–7).
-- **Drained_after_socializing**: Sensação de cansaço após socializar (Sim/Não).
-- **Friends_circle_size**: Número de amigos próximos (0–15).
-- **Post_frequency**: Frequência de postagens nas redes sociais (0–10).
-- **Personality**: Tipo de personalidade (Extrovertido/Introvertido).
+## 🧠 Principais Insights
 
-## Ferramentas Utilizadas
+💡 **Extrovertidos** frequentam eventos sociais em média **3 vezes mais** que introvertidos.  
+💡 **Introvertidos** passam mais de **7 horas por dia sozinhos**, enquanto extrovertidos passam apenas 2.  
+💡 O círculo de amizades dos extrovertidos é quase **3 vezes maior** que o dos introvertidos.  
+💡 Há uma relação clara: quanto **menos amigos**, maior o tempo gasto sozinho — especialmente entre introvertidos.
 
-- **Power BI**: Principal ferramenta utilizada para análise e visualização dos dados.
+---
 
-## Como Visualizar o Projeto
+## 📊 Ferramentas e Técnicas Utilizadas
 
-1. Faça o **clone** deste repositório em sua máquina local:
-   
-   ```bash
-   git clone https://github.com/andretavaresdev/extrovert-vs-introvert-powerbi.git
+| Etapa                  | Ferramenta / Técnica                  |
+|------------------------|----------------------------------------|
+| Importação e limpeza   | Power Query (Power BI)                |
+| Visualização           | Gráficos de barras, dispersão e slicers |
+| Interatividade         | Filtros por personalidade e medo de palco |
+| Comunicação de dados   | Insights textuais interpretativos no dashboard |
+
+---
+
+## 🧩 Sobre o Dataset
+
+- Fonte: [Kaggle – Extrovert vs Introvert Behavior Data](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)
+- Total de registros: 96
+- Variáveis principais:
+  - `Personality` (Extrovert / Introvert)
+  - `Time_spent_Alone` (horas por dia)
+  - `Social_event_attendance`
+  - `Friends_circle_size`
+  - `Stage_fear`
+  - `Drained_after_socializing`
+
+---
+
+### 📁 Acesse o projeto completo:
+
+- [Download do arquivo Power BI (.pbix)](./introvertidos-vs-extrovertidos.pbix)
+![Imagem do Dashboard](./imagens/dashboard-visao-geral.png)
+
+---
+
+## 🚀 Competências Demonstradas
+
+✅ Capacidade de contar histórias com dados (Data Storytelling)  
+✅ Domínio prático do Power BI (gráficos, filtros, modelagem simples)  
+✅ Estruturação de um dashboard limpo, responsivo e focado no usuário  
+✅ Entendimento e extração de insights úteis a partir de variáveis categóricas e quantitativas
+
+---
+
+## 📬 Contato
+
+- Desenvolvido por **André Tavares**. 
+- [LinkedIn](https://www.linkedin.com/in/andre-tavares1)  
+- E-mail profissional: andreetavaress1@gmail.com
+  
+---
+
+> **“Não basta montar gráficos. O valor está em transformar dados em decisões. Este projeto é um exemplo prático dessa missão.”**
