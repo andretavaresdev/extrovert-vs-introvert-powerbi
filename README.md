@@ -41,7 +41,6 @@ Este projeto foi desenvolvido com foco em **análise descritiva, comunicação v
 ## 🧩 Sobre o Dataset
 
 - Fonte: [Kaggle – Extrovert vs Introvert Behavior Data](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)
-- Total de registros: 96
 - Variáveis principais:
   - `Personality` (Extrovert / Introvert)
   - `Time_spent_Alone` (horas por dia)
